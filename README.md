@@ -1,15 +1,14 @@
-![image](assets/img/header.png)
 
+![image](assets/img/Header.png)
 
-<p style="margin: -20px 0 30px">
-  <a href="https://www.buymeacoffee.com/migueravila" target="_blank" style='margin-right:0px; margin-top:5px'>
-    <img align="center" src="https://github.com/migueravila/Bento/blob/master/assets/img/donation.png" alt="donation" height="35px" />
-  </a>
+<div align="center">
+    <b>🍱 Minimalist, elegant and simple startpage inspired by the Bento box!</b>
+</div>
 
-  <a href="https://migueravila.github.io/Bento/" target="_blank" style='margin-right:0px; margin-top:5px'>
-    <img align="center" src="https://github.com/migueravila/Bento/blob/master/assets/img/live.png" alt="live-preview" height="35px" />
-  </a> 
-</p>
+<br />
+<br />
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/migueravila)
 
 <br />
 

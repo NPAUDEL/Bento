@@ -1,12 +1,6 @@
-// ┬ ┬┌─┐┌─┐┌┬┐┬ ┬┌─┐┬─┐
-// │││├┤ ├─┤ │ ├─┤├┤ ├┬┘
-// └┴┘└─┘┴ ┴ ┴ ┴ ┴└─┘┴└─
-
 const iconElement = document.querySelector('.weather-icon');
 const tempElement = document.querySelector('.temperature-value p');
-const descElement = document.querySelector(
-  '.temperature-description p'
-);
+const descElement = document.querySelector('.temperature-description p');
 
 // App data
 const weather = {};
@@ -14,6 +8,7 @@ weather.temperature = {
   unit: 'celsius',
 };
 
+// Change to 'F' for Fahrenheit
 var tempUnit = CONFIG.weatherUnit;
 
 const KELVIN = 273.15;
@@ -24,6 +19,7 @@ const key = `${CONFIG.weatherKey}`;
 setPosition();
 
 function setPosition(position) {
+
   getWeather(CONFIG.weatherLatitude, CONFIG.weatherLongitude);
 }
 

@@ -1,7 +1,3 @@
-// ┌┬┐┬ ┬┌─┐┌┬┐┌─┐
-//  │ ├─┤├┤ │││├┤
-//  ┴ ┴ ┴└─┘┴ ┴└─┘
-
 // Store the theme
 let darkTheme = localStorage.getItem('darkTheme');
 const themeToggle = document.querySelector('#themeButton');
@@ -39,6 +35,6 @@ themeToggle.addEventListener('click', () => {
   }
 });
 
-if (CONFIG.imageBackground) {
+if(CONFIG.imageBackground) {
   document.body.classList.add('withImageBackground');
-}
+} 

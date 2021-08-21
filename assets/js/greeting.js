@@ -1,7 +1,3 @@
-// ┌─┐┬─┐┌─┐┌─┐┌┬┐┬┌┐┌┌─┐┌─┐
-// │ ┬├┬┘├┤ ├┤  │ │││││ ┬└─┐
-// └─┘┴└─└─┘└─┘ ┴ ┴┘└┘└─┘└─┘
-
 // Get the hour
 const today = new Date();
 const hour = today.getHours();
